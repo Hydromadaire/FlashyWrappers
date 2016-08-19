@@ -1,0 +1,14 @@
+prefix=/cygdrive/c/Pavel/FlasCC_1.0.1/ffmpeg_ogg_theora_vorbis
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 55.19.104
+Requires: libavcodec = 55.39.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavformat -liconv -L/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -Wl,-rpath,/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -lSDL -lm -lvgl -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lm -lz
+Libs.private: 
+Cflags: -I${includedir}

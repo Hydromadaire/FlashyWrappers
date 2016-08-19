@@ -1,0 +1,14 @@
+prefix=/mingw/ffmpeg_mp4_openh264_aac/
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 5.11.102
+Requires: libswscale >= 3.1.101, libavutil >= 54.20.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -liconv -Lc:/MinGW/lib -lopenh264 -lm -lpsapi -ladvapi32 -lshell32 -lstdc++
+Libs.private: 
+Cflags: -I${includedir}

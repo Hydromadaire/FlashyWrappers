@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181C885E18046041001E08A8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */; };
+		1820EFFE1AF3A5BB002905EF /* ANEHelloWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */; };
+		1820EFFF1AF3A5BF002905EF /* FWAudioMix.h in Headers */ = {isa = PBXBuildFile; fileRef = 18957EBB1A9C5D48006301A9 /* FWAudioMix.h */; };
+		1820F0001AF3A5C2002905EF /* ANEHelloWorld.h in Sources */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* ANEHelloWorld.h */; };
+		1820F0011AF3A5DE002905EF /* encoder_Mac_ANE.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E085071AA32E2F00C936F2 /* encoder_Mac_ANE.h */; };
+		1824CF1E18040DEC00D6A6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824CF1D18040DEC00D6A6CF /* Foundation.framework */; };
+		18A27F6C18EC6F11000C61C1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */; };
+		18A27F6F18EC6F79000C61C1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */; };
+		18A27F7418EC7197000C61C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F7318EC7197000C61C1 /* AVFoundation.framework */; };
+		18AE5B931A6DCF6800751C17 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE5B921A6DCF6800751C17 /* AudioToolbox.framework */; };
+		18AE5B951A6DCF7200751C17 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE5B941A6DCF7200751C17 /* OpenGLES.framework */; };
+		18AE5B971A6DCF7700751C17 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE5B961A6DCF7700751C17 /* AssetsLibrary.framework */; };
+		18AE888B19C8AAD2002B8FCC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE888A19C8AAD2002B8FCC /* Accelerate.framework */; };
+		18D3C6771BE2893D00B53D0E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C6761BE2893B00B53D0E /* Accelerate.framework */; };
+		18D3C6791BE2896F00B53D0E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C6781BE2896F00B53D0E /* AppKit.framework */; };
+		18D3C67B1BE2897E00B53D0E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C67A1BE2897E00B53D0E /* AVFoundation.framework */; };
+		18D3C67D1BE2898600B53D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C67C1BE2898600B53D0E /* Foundation.framework */; };
+		18D3C67F1BE2898D00B53D0E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C67E1BE2898D00B53D0E /* CoreVideo.framework */; };
+		18D3C6811BE2899300B53D0E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C6801BE2899300B53D0E /* CoreMedia.framework */; };
+		18D3C6831BE2899800B53D0E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C6821BE2899800B53D0E /* OpenGL.framework */; };
+		18D88C771BC10DB6006CC84F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D88C761BC10DB5006CC84F /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18DF50FD188C26BA00EECC6A /* logo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DF50FC188C26BA00EECC6A /* logo.h */; };
+		18DF5101188C26CA00EECC6A /* FW_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50FF188C26CA00EECC6A /* FW_exception.cpp */; };
+		18DF5102188C26CA00EECC6A /* FW_exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DF5100188C26CA00EECC6A /* FW_exception.h */; };
+		18E0850E1AA32E2F00C936F2 /* encoderANEMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E085031AA32E2E00C936F2 /* encoderANEMac.framework */; };
+		18E085151AA32E2F00C936F2 /* encoder_Mac_ANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E085141AA32E2F00C936F2 /* encoder_Mac_ANETests.m */; };
+		18E085291AA4CE2600C936F2 /* FW_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50FF188C26CA00EECC6A /* FW_exception.cpp */; };
+		18E0852C1AA4CE2700C936F2 /* ANEHelloWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */; };
+		18E085301AA4CE5900C936F2 /* FW_exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DF5100188C26CA00EECC6A /* FW_exception.h */; };
+		18E085311AA4CE5900C936F2 /* logo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DF50FC188C26BA00EECC6A /* logo.h */; };
+		18E085321AA4CE5900C936F2 /* FWAudioMix.h in Headers */ = {isa = PBXBuildFile; fileRef = 18957EBB1A9C5D48006301A9 /* FWAudioMix.h */; };
+		18E085331AA4CE5900C936F2 /* ANEHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* ANEHelloWorld.h */; };
+		18E085341AA4CE5900C936F2 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */; };
+		18E36F4619CB38AF005D30A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E36F4519CB38AF005D30A1 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E0850F1AA32E2F00C936F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1824CF1118040DEC00D6A6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E085021AA32E2E00C936F2;
+			remoteInfo = encoder_Mac_ANE;
+		};
+		18E457B51BBBB82000F4D619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E457B01BBBB81F00F4D619 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+		18E457B71BBBB82000F4D619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E457B01BBBB81F00F4D619 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A5687101B54610900243427;
+			remoteInfo = "TheAmazingAudioEngine OS X";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		1824CF1A18040DEC00D6A6CF /* libFWEncoderANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWEncoderANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824CF1D18040DEC00D6A6CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1824CF2118040DEC00D6A6CF /* encoder_iOS_ANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "encoder_iOS_ANE-Prefix.pch"; sourceTree = "<group>"; };
+		187838B8188C4DC200066EC1 /* ANEHelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ANEHelloWorld.h; sourceTree = "<group>"; };
+		18957EBB1A9C5D48006301A9 /* FWAudioMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWAudioMix.h; sourceTree = "<group>"; };
+		18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18A27F7318EC7197000C61C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18AE5B921A6DCF6800751C17 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18AE5B941A6DCF7200751C17 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18AE5B961A6DCF7700751C17 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		18AE888A19C8AAD2002B8FCC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		18D3C6761BE2893B00B53D0E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C6781BE2896F00B53D0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C67A1BE2897E00B53D0E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C67C1BE2898600B53D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C67E1BE2898D00B53D0E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C6801BE2899300B53D0E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C6821BE2899800B53D0E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		18D3C6841BECFEA000B53D0E /* AIRReplayKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRReplayKit.m; sourceTree = "<group>"; };
+		18D3C6861BECFEDA00B53D0E /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		18D3C6881BECFFE300B53D0E /* AIRReplayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRReplayKit.h; sourceTree = "<group>"; };
+		18D88C761BC10DB5006CC84F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ANEHelloWorld.mm; sourceTree = "<group>"; };
+		18DF50FC188C26BA00EECC6A /* logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logo.h; path = ../../../logo.h; sourceTree = "<group>"; };
+		18DF50FF188C26CA00EECC6A /* FW_exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FW_exception.cpp; path = ../../../FW_exception.cpp; sourceTree = "<group>"; };
+		18DF5100188C26CA00EECC6A /* FW_exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FW_exception.h; path = ../../../FW_exception.h; sourceTree = "<group>"; };
+		18E085031AA32E2E00C936F2 /* encoderANEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = encoderANEMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E085061AA32E2F00C936F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E085071AA32E2F00C936F2 /* encoder_Mac_ANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encoder_Mac_ANE.h; sourceTree = "<group>"; };
+		18E0850D1AA32E2F00C936F2 /* encoder_Mac_ANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encoder_Mac_ANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E085131AA32E2F00C936F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E085141AA32E2F00C936F2 /* encoder_Mac_ANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = encoder_Mac_ANETests.m; sourceTree = "<group>"; };
+		18E36F4519CB38AF005D30A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E457B01BBBB81F00F4D619 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = ANEGeneric/TheAmazingAudioEngine/TheAmazingAudioEngine.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1824CF1718040DEC00D6A6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D88C771BC10DB6006CC84F /* Photos.framework in Frameworks */,
+				18AE5B971A6DCF7700751C17 /* AssetsLibrary.framework in Frameworks */,
+				18AE5B951A6DCF7200751C17 /* OpenGLES.framework in Frameworks */,
+				18AE5B931A6DCF6800751C17 /* AudioToolbox.framework in Frameworks */,
+				18E36F4619CB38AF005D30A1 /* UIKit.framework in Frameworks */,
+				18AE888B19C8AAD2002B8FCC /* Accelerate.framework in Frameworks */,
+				18A27F7418EC7197000C61C1 /* AVFoundation.framework in Frameworks */,
+				18A27F6F18EC6F79000C61C1 /* CoreMedia.framework in Frameworks */,
+				18A27F6C18EC6F11000C61C1 /* CoreVideo.framework in Frameworks */,
+				1824CF1E18040DEC00D6A6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E084FF1AA32E2E00C936F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3C6831BE2899800B53D0E /* OpenGL.framework in Frameworks */,
+				18D3C6811BE2899300B53D0E /* CoreMedia.framework in Frameworks */,
+				18D3C67F1BE2898D00B53D0E /* CoreVideo.framework in Frameworks */,
+				18D3C67D1BE2898600B53D0E /* Foundation.framework in Frameworks */,
+				18D3C67B1BE2897E00B53D0E /* AVFoundation.framework in Frameworks */,
+				18D3C6791BE2896F00B53D0E /* AppKit.framework in Frameworks */,
+				18D3C6771BE2893D00B53D0E /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E0850A1AA32E2F00C936F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0850E1AA32E2F00C936F2 /* encoderANEMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1824CF0F18040DEC00D6A6CF = {
+			isa = PBXGroup;
+			children = (
+				18E457B01BBBB81F00F4D619 /* TheAmazingAudioEngine.xcodeproj */,
+				18E085281AA4CDB800C936F2 /* iOS files */,
+				18E085041AA32E2F00C936F2 /* encoder_Mac_ANE */,
+				18E085111AA32E2F00C936F2 /* encoder_Mac_ANETests */,
+				1824CF1C18040DEC00D6A6CF /* Frameworks */,
+				1824CF1B18040DEC00D6A6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1824CF1B18040DEC00D6A6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1824CF1A18040DEC00D6A6CF /* libFWEncoderANE.a */,
+				18E085031AA32E2E00C936F2 /* encoderANEMac.framework */,
+				18E0850D1AA32E2F00C936F2 /* encoder_Mac_ANETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1824CF1C18040DEC00D6A6CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D3C6861BECFEDA00B53D0E /* ReplayKit.framework */,
+				18D3C6821BE2899800B53D0E /* OpenGL.framework */,
+				18D3C6801BE2899300B53D0E /* CoreMedia.framework */,
+				18D3C67E1BE2898D00B53D0E /* CoreVideo.framework */,
+				18D3C67C1BE2898600B53D0E /* Foundation.framework */,
+				18D3C67A1BE2897E00B53D0E /* AVFoundation.framework */,
+				18D3C6781BE2896F00B53D0E /* AppKit.framework */,
+				18D3C6761BE2893B00B53D0E /* Accelerate.framework */,
+				18D88C761BC10DB5006CC84F /* Photos.framework */,
+				18AE888A19C8AAD2002B8FCC /* Accelerate.framework */,
+				18AE5B961A6DCF7700751C17 /* AssetsLibrary.framework */,
+				18AE5B941A6DCF7200751C17 /* OpenGLES.framework */,
+				18AE5B921A6DCF6800751C17 /* AudioToolbox.framework */,
+				18E36F4519CB38AF005D30A1 /* UIKit.framework */,
+				18A27F7318EC7197000C61C1 /* AVFoundation.framework */,
+				18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */,
+				18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */,
+				1824CF1D18040DEC00D6A6CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1824CF1F18040DEC00D6A6CF /* encoder_iOS_ANE */ = {
+			isa = PBXGroup;
+			children = (
+				18DF50FF188C26CA00EECC6A /* FW_exception.cpp */,
+				18DF5100188C26CA00EECC6A /* FW_exception.h */,
+				18DF50FC188C26BA00EECC6A /* logo.h */,
+				18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */,
+				18957EBB1A9C5D48006301A9 /* FWAudioMix.h */,
+				187838B8188C4DC200066EC1 /* ANEHelloWorld.h */,
+				181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */,
+				1824CF2018040DEC00D6A6CF /* Supporting Files */,
+				18D3C6841BECFEA000B53D0E /* AIRReplayKit.m */,
+				18D3C6881BECFFE300B53D0E /* AIRReplayKit.h */,
+			);
+			name = encoder_iOS_ANE;
+			path = ANEGeneric;
+			sourceTree = "<group>";
+		};
+		1824CF2018040DEC00D6A6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1824CF2118040DEC00D6A6CF /* encoder_iOS_ANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E085041AA32E2F00C936F2 /* encoder_Mac_ANE */ = {
+			isa = PBXGroup;
+			children = (
+				18E085071AA32E2F00C936F2 /* encoder_Mac_ANE.h */,
+				18E085051AA32E2F00C936F2 /* Supporting Files */,
+			);
+			path = encoder_Mac_ANE;
+			sourceTree = "<group>";
+		};
+		18E085051AA32E2F00C936F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E085061AA32E2F00C936F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E085111AA32E2F00C936F2 /* encoder_Mac_ANETests */ = {
+			isa = PBXGroup;
+			children = (
+				18E085141AA32E2F00C936F2 /* encoder_Mac_ANETests.m */,
+				18E085121AA32E2F00C936F2 /* Supporting Files */,
+			);
+			path = encoder_Mac_ANETests;
+			sourceTree = "<group>";
+		};
+		18E085121AA32E2F00C936F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E085131AA32E2F00C936F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E085281AA4CDB800C936F2 /* iOS files */ = {
+			isa = PBXGroup;
+			children = (
+				1824CF1F18040DEC00D6A6CF /* encoder_iOS_ANE */,
+			);
+			name = "iOS files";
+			sourceTree = "<group>";
+		};
+		18E457B11BBBB81F00F4D619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E457B61BBBB82000F4D619 /* libTheAmazingAudioEngine.a */,
+				18E457B81BBBB82000F4D619 /* libTheAmazingAudioEngine OS X.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1824CF1818040DEC00D6A6CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C885E18046041001E08A8 /* FlashRuntimeExtensions.h in Headers */,
+				18DF50FD188C26BA00EECC6A /* logo.h in Headers */,
+				18DF5102188C26CA00EECC6A /* FW_exception.h in Headers */,
+				1820EFFF1AF3A5BF002905EF /* FWAudioMix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E085001AA32E2E00C936F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E085301AA4CE5900C936F2 /* FW_exception.h in Headers */,
+				18E085311AA4CE5900C936F2 /* logo.h in Headers */,
+				18E085321AA4CE5900C936F2 /* FWAudioMix.h in Headers */,
+				18E085331AA4CE5900C936F2 /* ANEHelloWorld.h in Headers */,
+				1820F0011AF3A5DE002905EF /* encoder_Mac_ANE.h in Headers */,
+				18E085341AA4CE5900C936F2 /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1824CF1918040DEC00D6A6CF /* encoderANEiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1824CF2718040DED00D6A6CF /* Build configuration list for PBXNativeTarget "encoderANEiOS" */;
+			buildPhases = (
+				1824CF1618040DEC00D6A6CF /* Sources */,
+				1824CF1718040DEC00D6A6CF /* Frameworks */,
+				1824CF1818040DEC00D6A6CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encoderANEiOS;
+			productName = ANEGeneric;
+			productReference = 1824CF1A18040DEC00D6A6CF /* libFWEncoderANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		18E085021AA32E2E00C936F2 /* encoderANEMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E0851A1AA32E2F00C936F2 /* Build configuration list for PBXNativeTarget "encoderANEMac" */;
+			buildPhases = (
+				18E084FE1AA32E2E00C936F2 /* Sources */,
+				18E084FF1AA32E2E00C936F2 /* Frameworks */,
+				18E085001AA32E2E00C936F2 /* Headers */,
+				18E085011AA32E2E00C936F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encoderANEMac;
+			productName = encoder_Mac_ANE;
+			productReference = 18E085031AA32E2E00C936F2 /* encoderANEMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18E0850C1AA32E2F00C936F2 /* encoder_Mac_ANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E0851B1AA32E2F00C936F2 /* Build configuration list for PBXNativeTarget "encoder_Mac_ANETests" */;
+			buildPhases = (
+				18E085091AA32E2F00C936F2 /* Sources */,
+				18E0850A1AA32E2F00C936F2 /* Frameworks */,
+				18E0850B1AA32E2F00C936F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E085101AA32E2F00C936F2 /* PBXTargetDependency */,
+			);
+			name = encoder_Mac_ANETests;
+			productName = encoder_Mac_ANETests;
+			productReference = 18E0850D1AA32E2F00C936F2 /* encoder_Mac_ANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1824CF1118040DEC00D6A6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E085021AA32E2E00C936F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18E0850C1AA32E2F00C936F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 1824CF1418040DEC00D6A6CF /* Build configuration list for PBXProject "encoder_iOS_ANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1824CF0F18040DEC00D6A6CF;
+			productRefGroup = 1824CF1B18040DEC00D6A6CF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 18E457B11BBBB81F00F4D619 /* Products */;
+					ProjectRef = 18E457B01BBBB81F00F4D619 /* TheAmazingAudioEngine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1824CF1918040DEC00D6A6CF /* encoderANEiOS */,
+				18E085021AA32E2E00C936F2 /* encoderANEMac */,
+				18E0850C1AA32E2F00C936F2 /* encoder_Mac_ANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		18E457B61BBBB82000F4D619 /* libTheAmazingAudioEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTheAmazingAudioEngine.a;
+			remoteRef = 18E457B51BBBB82000F4D619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18E457B81BBBB82000F4D619 /* libTheAmazingAudioEngine OS X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libTheAmazingAudioEngine OS X.a";
+			remoteRef = 18E457B71BBBB82000F4D619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E085011AA32E2E00C936F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E0850B1AA32E2F00C936F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1824CF1618040DEC00D6A6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820EFFE1AF3A5BB002905EF /* ANEHelloWorld.mm in Sources */,
+				18DF5101188C26CA00EECC6A /* FW_exception.cpp in Sources */,
+				1820F0001AF3A5C2002905EF /* ANEHelloWorld.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E084FE1AA32E2E00C936F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E085291AA4CE2600C936F2 /* FW_exception.cpp in Sources */,
+				18E0852C1AA4CE2700C936F2 /* ANEHelloWorld.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E085091AA32E2F00C936F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E085151AA32E2F00C936F2 /* encoder_Mac_ANETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E085101AA32E2F00C936F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E085021AA32E2E00C936F2 /* encoderANEMac */;
+			targetProxy = 18E0850F1AA32E2F00C936F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1824CF2518040DED00D6A6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 i386";
+			};
+			name = Debug;
+		};
+		1824CF2618040DED00D6A6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 i386";
+			};
+			name = Release;
+		};
+		1824CF2818040DED00D6A6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../iOS/Debug/;
+				DSTROOT = /tmp/ANEGeneric.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEGeneric/encoder_iOS_ANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					BOOST_ALL_NO_LIB,
+					"DEBUG=1",
+					"$(inherited)",
+					"TARGET_iOS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../boost_atomic/,
+					./ANEGeneric/TheAmazingAudioEngine/TheAmazingAudioEngine/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FWEncoderANE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		1824CF2918040DED00D6A6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../iOS/Release/;
+				DSTROOT = /tmp/ANEGeneric.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEGeneric/encoder_iOS_ANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = BOOST_ALL_NO_LIB;
+				HEADER_SEARCH_PATHS = (
+					../../boost_atomic/,
+					./ANEGeneric/TheAmazingAudioEngine/TheAmazingAudioEngine/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FWEncoderANE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		18E085161AA32E2F00C936F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = ../Mac/Debug;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/apple/Desktop/air/runtimes/air_16/mac \"$(SRCROOT)/mac\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"/Users/apple/Desktop/air_16/runtimes/air/mac\"";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					TARGET_Mac,
+					"DEBUG=1",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_FILE = encoder_Mac_ANE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "/Library/Frameworks @executable_path/../Frameworks @executable_path/../runtimes/air/mac";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weak_framework",
+					"\"Adobe AIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/ ../../boost_atomic/\n";
+				VALID_ARCHS = i386;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18E085171AA32E2F00C936F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = ../Mac/Release;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/apple/Desktop/air_16/runtimes/air/mac \"$(SRCROOT)/mac\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"/Users/apple/Desktop/air_16/runtimes/air/mac\"";
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					TARGET_Mac,
+					DEMO,
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_FILE = encoder_Mac_ANE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "/Library/Frameworks @executable_path/../Frameworks @executable_path/../runtimes/air/mac";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weak_framework",
+					"\"Adobe AIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/ ../../boost_atomic/\n";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = i386;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18E085181AA32E2F00C936F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = encoder_Mac_ANETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18E085191AA32E2F00C936F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = encoder_Mac_ANETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1824CF1418040DEC00D6A6CF /* Build configuration list for PBXProject "encoder_iOS_ANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824CF2518040DED00D6A6CF /* Debug */,
+				1824CF2618040DED00D6A6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1824CF2718040DED00D6A6CF /* Build configuration list for PBXNativeTarget "encoderANEiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824CF2818040DED00D6A6CF /* Debug */,
+				1824CF2918040DED00D6A6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E0851A1AA32E2F00C936F2 /* Build configuration list for PBXNativeTarget "encoderANEMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E085161AA32E2F00C936F2 /* Debug */,
+				18E085171AA32E2F00C936F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E0851B1AA32E2F00C936F2 /* Build configuration list for PBXNativeTarget "encoder_Mac_ANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E085181AA32E2F00C936F2 /* Debug */,
+				18E085191AA32E2F00C936F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1824CF1118040DEC00D6A6CF /* Project object */;
+}

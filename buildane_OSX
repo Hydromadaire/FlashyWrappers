@@ -1,0 +1,14 @@
+ACOMPC="/Users/apple/Desktop/air_16/bin/acompc"
+ADT="/Users/apple/Desktop/air_16/bin/adt"
+VERSION="FWVideoEncoder/2.6_full"
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+$ACOMPC -define=CONFIG::AIR,true -source-path="$DIR" -include-classes com.rainbowcreatures.FWVideoEncoder com.rainbowcreatures.swf.Dummy -swf-version=18 -target-player=11.5  -define+=CONFIG::AIR,true -define+=CONFIG::FLASCC,false -define+=CONFIG::CODECS,"'MP4'" -output com.rainbowcreatures.FWVideoEncoder.swc
+mv com.rainbowcreatures.FWVideoEncoder.swc com.rainbowcreatures.FWVideoEncoder.swc.zip
+unzip -o -q com.rainbowcreatures.FWVideoEncoder.swc -d tmp
+mv com.rainbowcreatures.FWVideoEncoder.swc.zip tmp/com.rainbowcreatures.FWVideoEncoder.swc
+cp Mac/extension.xml tmp/extension.xml
+cp tmp/library.swf Mac/Release/library.swf
+$ADT -package -target ane $DIR/Mac/ane/mp4/FWEncoderANE.ane tmp/extension.xml -swc tmp/com.rainbowcreatures.FWVideoEncoder.swc -platform MacOS-x86 -C Mac/Release  encoderANEMac.framework library.swf
+cp Mac/ane/mp4/*.ane ../releases/$VERSION/lib/AIR/Mac/
+rm *.swc

@@ -1,0 +1,2 @@
+CALL config.bat
+%AIR_PATH%asdoc -define=CONFIG::AIR,true -define=CONFIG::FLASCC,false -define=CONFIG::DEMO,false -define=CONFIG::CODECS,"'MP4'" -locale en_US -source-path . -doc-classes com.rainbowcreatures.FWVideoEncoder -library-path+=%AIR_PATH%..\frameworks\libs\air -main-title "FlashyWrappers API Documentation" -window-title "FlashyWrappers API Documentation" -output .\asdoc

@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+    <id>com.rainbowcreatures.FWEncoderANE</id>
+    <versionNumber>1</versionNumber>
+    <platforms>
+        <platform name="MacOS-x86">
+            <applicationDeployment>
+                <nativeLibrary>encoderANEMac.framework</nativeLibrary>
+                <initializer>ExtInitializer</initializer>
+                <finalizer>ExtFinalizer</finalizer>
+            </applicationDeployment>
+	 </platform>
+    </platforms>
+</extension>

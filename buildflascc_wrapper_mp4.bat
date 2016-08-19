@@ -1,0 +1,3 @@
+CALL config.bat
+CALL %FLEX_PATH%compc -swf-version=31 -target-player=20 -define+=CONFIG::AIR,false -define+=CONFIG::DEMO,false -define+=CONFIG::FLASCC,true -define+=CONFIG::CODECS,"'MP4'" -static-link-runtime-shared-libraries -library-path=%FLEX_PATH% -include-sources AS3/com/hurlant/ -include-sources AS3/cc/ -include-sources AS3/com/rainbowcreatures/ -include-sources AS3/com/adobe/ -library-path=FlasCC/fw_ffmpeg_encode_mp4_release.swc -output ./FlasCC/fw_ffmpeg_encode_mp4_release.swc
+CALL buildSWFBridge_mp4.bat

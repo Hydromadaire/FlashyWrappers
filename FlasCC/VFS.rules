@@ -1,0 +1,2 @@
+VFS_SRCS = VFS_000000.as 
+VFS_ABCS := $(VFS_SRCS:.as=.abc)

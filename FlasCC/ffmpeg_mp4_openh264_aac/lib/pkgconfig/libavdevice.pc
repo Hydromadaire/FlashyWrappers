@@ -1,0 +1,14 @@
+prefix=/cygdrive/c/Pavel/FlasCC_1.0.1/ffmpeg_mp4_openh264_aac
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 55.5.100
+Requires: libavformat = 55.19.104
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavdevice -liconv -L/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -Wl,-rpath,/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -lSDL -lm -lvgl -lopenh264 -lstdc++ -lm -lz
+Libs.private: 
+Cflags: -I${includedir}

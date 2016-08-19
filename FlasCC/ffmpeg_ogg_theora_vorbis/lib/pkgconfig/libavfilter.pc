@@ -1,0 +1,14 @@
+prefix=/cygdrive/c/Pavel/FlasCC_1.0.1/ffmpeg_ogg_theora_vorbis
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 3.90.100
+Requires: libswscale = 2.5.101, libavutil = 52.48.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavfilter -liconv -L/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -Wl,-rpath,/cygdrive/c/Pavel/FlasCC_1.0.1/sdk/usr/lib -lSDL -lm -lvgl -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lm -lz
+Libs.private: 
+Cflags: -I${includedir}
