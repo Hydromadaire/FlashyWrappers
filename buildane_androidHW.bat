@@ -4,7 +4,7 @@ REM copy /Y AndroidHW\FlashyWrappers_obfuscated.jar AndroidHW\FlashyWrappers.jar
 CALL %AIR_PATH%acompc -define=CONFIG::AIR,true -define=CONFIG::FLASCC,false -define+=CONFIG::CODECS,"'MP4'" -define=CONFIG::DEMO,true -source-path="./AndroidHW/" -source-path="AS3/" -include-sources AS3/com/hurlant/ -include-sources AS3/cc/ -include-sources AS3/com/rainbowcreatures/ -include-sources AS3/com/adobe/ -include-sources AS3/com/FlasCC/ -swf-version=18 -target-player=11.5 -output com.rainbowcreatures.FWVideoEncoder.swc
 rmdir Android-ARM /S /Q
 mkdir Android-ARM
-copy com.rainbowcreatures.FWVideoEncoder.swc .\AndroidHW\ane\
+copy com.rainbowcreatures.FWVideoEncoder.swc .\AndroidHW\ane\FWEncoderANE.swc
 unzip -o -q com.rainbowcreatures.FWVideoEncoder.swc -d tmp
 copy tmp\library.swf Android-ARM
 copy AndroidHW\eclipse_project\FWAndroidHW\FlashyWrappers.jar Android-ARM
@@ -14,4 +14,3 @@ CALL %AIR_PATH%adt.bat -package -target ane AndroidHW/ane/FWEncoderANE.ane Andro
 rem del tmp\*.* /Q
 rem del tmp /Q
 del *.swc
-copy AndroidHW\ane\FWEncoderANE.ane ..\releases\%VERSION%\lib\AIR\Android

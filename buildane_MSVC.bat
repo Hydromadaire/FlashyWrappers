@@ -5,9 +5,9 @@ unzip -o -q com.rainbowcreatures.FWVideoEncoder.swc -d tmp
 copy Windows\extension.xml tmp\*.* /Y
 copy Windows\MSVC_project\Release\*.dll tmp\*.*  /Y
 copy com.rainbowcreatures.FWVideoEncoder.swc tmp\*.* /Y
+copy com.rainbowcreatures.FWVideoEncoder.swc Windows\ane\FWEncoderANE.swc
 copy tmp\library.swf Mac\library.swf /Y
 CALL %AIR_PATH%adt.bat -package -target ane Windows/ane/FWEncoderANE.ane tmp/extension.xml -swc tmp/com.rainbowcreatures.FWVideoEncoder.swc -platform Windows-x86 -C tmp nativeExtension.dll library.swf
-copy Windows\ane\*.ane ..\releases\%VERSION%\lib\AIR\Windows\*.*
 rem del tmp\*.* /Q
 rem del tmp /Q
 del *.swc
