@@ -1,17 +1,16 @@
 #!/bin/bash
 
-ACOMPC="/Users/apple//Desktop/air_16/bin/acompc"
-ADT="/Users/apple/Desktop/air_16/bin/adt"
-VERSION="FWVideoEncoder/2.3"
+ACOMPC="/Users/apple/Desktop/air_20/bin/acompc"
+ADT="/Users/apple/Desktop/air_20/bin/adt"
+VERSION="FWVideoEncoder/2.6"
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-SWFVERSION=18
+SWFVERSION=31
 
-INCLUDE_CLASSES="com.rainbowcreatures.FWVideoEncoder com.rainbowcreatures.swf.Dummy"
 NAME="FWEncoderANE"
 
 echo "Generating SWC"
-$ACOMPC -source-path="$DIR" -include-classes -include-sources "com/rainbowcreatures/" -swf-version=$SWFVERSION -target-player=11.5 -define+=CONFIG::DEMO,false -define+=CONFIG::AIR,true -define+=CONFIG::FLASCC,false -define+=CONFIG::CODECS,"''" -output $NAME.swc
+$ACOMPC -include-classes -source-path="AS3/" -include-sources "AS3/com/" -include-sources "AS3/cc/" -swf-version=$SWFVERSION -target-player=20 -define+=CONFIG::DEMO,false -define+=CONFIG::AIR,true -define+=CONFIG::FLASCC,false -define+=CONFIG::CODECS,"''" -output $NAME.swc
 sleep 3
 
 cp $NAME.swc Apple/iOS/ane/$NAME.swc
@@ -22,24 +21,11 @@ sleep 2
 
 cp Apple/iOS/Release/library.swf ../releases/$VERSION/lib/iOS/Release/library.swf
 
-echo "Generating default SWC"
-$ACOMPC -define=CONFIG::AIR,true -source-path="$DIR" -include-classes $INCLUDE_CLASSES -swf-version=$SWFVERSION -target-player=11.5 -define+=CONFIG::DEMO,false -define+=CONFIG::AIR,true -define+=CONFIG::FLASCC,false -define+=CONFIG::CODECS,"''" -output $NAME.swc
-sleep 3
-
-echo "GENERATING LIBRARY from default SWC"
-unzip -q -o $NAME.swc -d Apple/default
-sleep 2
-[[ -f "catalog.xml" ]] && rm -f "catalog.xml"
-
 echo "GENERATING ANE"
-$ADT -package -target ane Apple/iOS/ane/$NAME.ane $DIR/Apple/iOS/extension.xml -swc $NAME.swc -platform iPhone-ARM -C Apple/iOS/Release library.swf lib$NAME.a -platformoptions Apple/iOS/platform.xml -platform default -C Apple/iOS/default library.swf
+$ADT -package -target ane Apple/iOS/ane/$NAME.ane $DIR/Apple/iOS/extension.xml -swc $NAME.swc -platform iPhone-ARM -C Apple/iOS/Release library.swf lib$NAME.a -platformoptions Apple/iOS/platform.xml
 sleep 2
 [[ -f "library.swf" ]] && rm -f "library.swf"
 
 rm *.swc
-
-cp Apple/iOS/ane/$NAME.ane /Users/apple/Dropbox/FWEncoderANE_iOS.ane
-cp Apple/iOS/ane/$NAME.ane  ../releases/$VERSION/lib/AIR/iOS/$NAME.ane
-cp Apple/iOS/ane/$NAME.swc /Users/apple/Dropbox/FWEncoderANE_iOS.swc
 
 echo "DONE!"
