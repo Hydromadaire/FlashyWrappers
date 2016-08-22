@@ -31,7 +31,7 @@ extern "C" {
 
 }
 
-#include "ANEHelloWorld.h"
+#include "FlashyWrappers.h"
 //#include "FW_ffmpeg_encode.h"
 #include "FW_exception.h"
 #include "logo.h"

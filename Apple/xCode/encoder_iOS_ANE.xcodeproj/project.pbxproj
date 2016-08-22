@@ -15,9 +15,9 @@
 		182015E61D6A645700F3D21C /* FW_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182015DC1D6A5AA400F3D21C /* FW_exception.cpp */; };
 		182015E81D6A64BB00F3D21C /* Adobe AIR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182015E71D6A64BB00F3D21C /* Adobe AIR.framework */; };
 		182015EC1D6A651900F3D21C /* Adobe AIR_64 in Frameworks */ = {isa = PBXBuildFile; fileRef = 182015EB1D6A651900F3D21C /* Adobe AIR_64 */; };
-		1820EFFE1AF3A5BB002905EF /* ANEHelloWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */; };
+		1820EFFE1AF3A5BB002905EF /* FlashyWrappers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* FlashyWrappers.mm */; };
 		1820EFFF1AF3A5BF002905EF /* FWAudioMix.h in Headers */ = {isa = PBXBuildFile; fileRef = 18957EBB1A9C5D48006301A9 /* FWAudioMix.h */; };
-		1820F0001AF3A5C2002905EF /* ANEHelloWorld.h in Sources */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* ANEHelloWorld.h */; };
+		1820F0001AF3A5C2002905EF /* FlashyWrappers.h in Sources */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* FlashyWrappers.h */; };
 		1820F0011AF3A5DE002905EF /* encoder_Mac_ANE.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E085071AA32E2F00C936F2 /* encoder_Mac_ANE.h */; };
 		1824CF1E18040DEC00D6A6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824CF1D18040DEC00D6A6CF /* Foundation.framework */; };
 		18A27F6C18EC6F11000C61C1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */; };
@@ -36,9 +36,9 @@
 		18D3C6831BE2899800B53D0E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D3C6821BE2899800B53D0E /* OpenGL.framework */; };
 		18D88C771BC10DB6006CC84F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D88C761BC10DB5006CC84F /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		18E0850E1AA32E2F00C936F2 /* encoderANEMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E085031AA32E2E00C936F2 /* encoderANEMac.framework */; };
-		18E0852C1AA4CE2700C936F2 /* ANEHelloWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */; };
+		18E0852C1AA4CE2700C936F2 /* FlashyWrappers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50F1188C236100EECC6A /* FlashyWrappers.mm */; };
 		18E085321AA4CE5900C936F2 /* FWAudioMix.h in Headers */ = {isa = PBXBuildFile; fileRef = 18957EBB1A9C5D48006301A9 /* FWAudioMix.h */; };
-		18E085331AA4CE5900C936F2 /* ANEHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* ANEHelloWorld.h */; };
+		18E085331AA4CE5900C936F2 /* FlashyWrappers.h in Headers */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* FlashyWrappers.h */; };
 		18E085341AA4CE5900C936F2 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */; };
 		18E36F4619CB38AF005D30A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E36F4519CB38AF005D30A1 /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +64,7 @@
 		182015EB1D6A651900F3D21C /* Adobe AIR_64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "Adobe AIR_64"; path = "../../../Desktop/air_20/runtimes/air/mac/Adobe AIR.framework/Versions/1.0/Adobe AIR_64"; sourceTree = "<group>"; };
 		1824CF1A18040DEC00D6A6CF /* libFWEncoderANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWEncoderANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1824CF1D18040DEC00D6A6CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		187838B8188C4DC200066EC1 /* ANEHelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ANEHelloWorld.h; sourceTree = "<group>"; };
+		187838B8188C4DC200066EC1 /* FlashyWrappers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FlashyWrappers.h; sourceTree = "<group>"; };
 		18957EBB1A9C5D48006301A9 /* FWAudioMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWAudioMix.h; sourceTree = "<group>"; };
 		18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -84,7 +84,7 @@
 		18D3C6861BECFEDA00B53D0E /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		18D3C6881BECFFE300B53D0E /* AIRReplayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRReplayKit.h; sourceTree = "<group>"; };
 		18D88C761BC10DB5006CC84F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ANEHelloWorld.mm; sourceTree = "<group>"; };
+		18DF50F1188C236100EECC6A /* FlashyWrappers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FlashyWrappers.mm; sourceTree = "<group>"; };
 		18E085031AA32E2E00C936F2 /* encoderANEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = encoderANEMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E085061AA32E2F00C936F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E085071AA32E2F00C936F2 /* encoder_Mac_ANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encoder_Mac_ANE.h; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		1824CF0F18040DEC00D6A6CF = {
 			isa = PBXGroup;
 			children = (
-				18E085281AA4CDB800C936F2 /* iOS files */,
+				1824CF1F18040DEC00D6A6CF /* encoder_iOS_ANE */,
 				18E085041AA32E2F00C936F2 /* encoder_Mac_ANE */,
 				1824CF1C18040DEC00D6A6CF /* Frameworks */,
 				1824CF1B18040DEC00D6A6CF /* Products */,
@@ -193,9 +193,9 @@
 				182015DC1D6A5AA400F3D21C /* FW_exception.cpp */,
 				182015DD1D6A5AA400F3D21C /* FW_exception.h */,
 				182015DE1D6A5AA400F3D21C /* logo.h */,
-				18DF50F1188C236100EECC6A /* ANEHelloWorld.mm */,
+				18DF50F1188C236100EECC6A /* FlashyWrappers.mm */,
 				18957EBB1A9C5D48006301A9 /* FWAudioMix.h */,
-				187838B8188C4DC200066EC1 /* ANEHelloWorld.h */,
+				187838B8188C4DC200066EC1 /* FlashyWrappers.h */,
 				181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */,
 				1824CF2018040DEC00D6A6CF /* Supporting Files */,
 				18D3C6841BECFEA000B53D0E /* AIRReplayKit.m */,
@@ -229,14 +229,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18E085281AA4CDB800C936F2 /* iOS files */ = {
-			isa = PBXGroup;
-			children = (
-				1824CF1F18040DEC00D6A6CF /* encoder_iOS_ANE */,
-			);
-			name = "iOS files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E085321AA4CE5900C936F2 /* FWAudioMix.h in Headers */,
-				18E085331AA4CE5900C936F2 /* ANEHelloWorld.h in Headers */,
+				18E085331AA4CE5900C936F2 /* FlashyWrappers.h in Headers */,
 				1820F0011AF3A5DE002905EF /* encoder_Mac_ANE.h in Headers */,
 				18E085341AA4CE5900C936F2 /* FlashRuntimeExtensions.h in Headers */,
 			);
@@ -376,8 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1820EFFE1AF3A5BB002905EF /* ANEHelloWorld.mm in Sources */,
-				1820F0001AF3A5C2002905EF /* ANEHelloWorld.h in Sources */,
+				1820EFFE1AF3A5BB002905EF /* FlashyWrappers.mm in Sources */,
+				1820F0001AF3A5C2002905EF /* FlashyWrappers.h in Sources */,
 				182015DF1D6A5AA400F3D21C /* FW_exception.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182015E61D6A645700F3D21C /* FW_exception.cpp in Sources */,
-				18E0852C1AA4CE2700C936F2 /* ANEHelloWorld.mm in Sources */,
+				18E0852C1AA4CE2700C936F2 /* FlashyWrappers.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
